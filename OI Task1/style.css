@@ -52,39 +52,6 @@ header{
     cursor: pointer;
 }
 
-/* Responsive Styles */
-
-/* Mobile View */
-@media only screen and (max-width: 600px) {
-    .navbar ul {
-        flex-direction: column;
-        align-items: flex-start;
-        padding-inline-start: 0;
-        /* gap: 10px; Adjust as needed */
-        /* width: 100%; Full width */
-    }
-
-    .navbar ul li {
-        font-size: 16px; /* Smaller font size for better visibility */
-        text-align: center;
-        width: 100%; /* Full width */
-    }
-
-    .navbar ul li:hover {
-        background-color: rgba(0, 0, 0, 0.1); /* Highlight background on hover */
-    }
-}
-
-/* Tablet and Desktop View */
-@media only screen and (min-width: 601px) {
-    .navbar ul {
-        width: auto; /* Resetting width for horizontal alignment */
-    }
-
-    .navbar ul li {
-        font-size: 20px; /* Original font size */
-    }
-}
 
 .main{
     display: grid;
